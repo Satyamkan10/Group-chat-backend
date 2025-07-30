@@ -17,7 +17,8 @@ const databaseURL = process.env.DATABSE_URL;
 
 app.use(
   cors({
-    origin: "https://group-chat-frontend-snowy.vercel.app/auth",
+ 
+    origin: "https://group-chat-frontend-snowy.vercel.app",
     methods: ["GET", "POST", "PUT", "PATCH", "DELETE"],
     credentials: true,
   })
